@@ -1,10 +1,17 @@
 package AccessModifiers.access1;
 
-import AccessModifiers.access2.student;
+import AccessModifiers.School;
 
 public class test {
     public static void main(String[] args) {
-        student s1= new student();
+        
+        // student.sayHello();//directly calling by class reference
+        
+        School.getInstance();
+        School.getInstance();
+        School.getInstance();
+        School.getInstance();
+        School.getInstance();
         
     }
 
