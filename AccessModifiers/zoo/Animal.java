@@ -2,10 +2,10 @@ package AccessModifiers.zoo;
 
 public class Animal {
     private String name;
-    protected  String Sound;
+    protected static   String Sound;
 
     public Animal(String Sound, String name) {
-        this.Sound = Sound;
+       this.Sound = Sound;
         this.name = name;
     }
     public void makeSound(){
@@ -14,5 +14,9 @@ public class Animal {
     protected void changeSound(String newsound){
         this.Sound = newsound;
     }
+    protected String getName(){
+        return getClass().getSimpleName();
+    }
+   
 
 }

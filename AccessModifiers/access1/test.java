@@ -13,6 +13,7 @@ public class test {
         School.getInstance();
         School.getInstance();
         
+      
     }
 
 }
