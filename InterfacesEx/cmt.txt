@@ -51,5 +51,7 @@ Annotated with @FunctionalInterface.
 class -->bluprint of obj
 interface-->blueprint of class-->abstractmethods
                                |->static constants
+                               |->static methods
+                               |->Defaullt methods
 
-use3d for multiple inheritance and abstraction                              
+used for multiple inheritance and abstraction                              

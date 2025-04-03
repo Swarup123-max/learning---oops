@@ -12,6 +12,8 @@ System.out.println(Dog.a);
         Animal cat = new Cat();
         cat.eat();   // Output: Cat eats fish.
         cat.sleep(); // Output: Cat sleeps on the couch.
+        Animal.sleeping();
+        cat.running();
         
     }
 

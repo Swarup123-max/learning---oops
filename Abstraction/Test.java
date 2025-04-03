@@ -2,7 +2,8 @@
 abstract class Animal {
     public abstract void sayHello(); // Abstract method
 
-    public void sleep() {
+    public void sleep()// normal method
+    {
         System.out.println("zzz...");
     }
 }
@@ -21,9 +22,8 @@ public class Test {
         Dog dog = new Dog();
 
         // ✅ Calling the methods
-        dog.sayHello();  // Should print "woof! woof!"
-        dog.sleep();     // Should print "zzz..."
-        
-       
+        dog.sayHello(); // Should print "woof! woof!"
+        dog.sleep(); // Should print "zzz..."
+
     }
 }
