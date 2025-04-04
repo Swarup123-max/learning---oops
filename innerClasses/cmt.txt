@@ -1,0 +1,5 @@
+types of inner class-->
+member inner class
+static nested class
+local inner class
+anonymous inner class

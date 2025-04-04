@@ -1,3 +1,5 @@
+package Abstraction;
+
 // Abstract class
 abstract class Animal {
     public abstract void sayHello(); // Abstract method

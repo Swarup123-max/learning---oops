@@ -1,8 +1,10 @@
+package Abstraction;
+
 // Abstract class
 abstract class Vehicle {
     // Abstract method (doesn't have a body)
     abstract void start();
-
+int n =10;
     // Regular method
     void stop() {
         System.out.println("Vehicle is stopping...");
